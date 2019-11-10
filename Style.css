@@ -1,0 +1,308 @@
+  body {
+  background-image: url('img/fundo.jpg');
+  background-repeat:round;
+  background-size:contain;
+  background-clip:border-box;
+  background-attachment:scroll;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+header{
+    background-color: #EED2EE;
+    padding-bottom: 15px;
+}
+
+
+
+  h1{
+  border-bottom: 6px solid DarkGrey;
+  text-transform: uppercase;
+  text-shadow: 3px 2px grey;
+
+}
+
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+
+
+footer{
+  background-color: #87CEFF;
+  padding: 50px;
+  position: static;
+}
+
+
+
+
+
+p {
+text-indent: 50px;
+font-variant: normal;
+font-family: "Times New Roman", Times, serif;
+}
+
+  table {
+border-collapse: collapse;
+width: 100%;
+}
+
+
+  th, td {
+text-align: left;
+padding: 8px;
+}
+
+
+  tr:nth-child(even){background-color: #f2f2f2}
+
+
+  th {
+background-color: Grey;
+color: white;
+}
+
+
+
+a:link{
+background-color: LightGrey;
+color: black;
+padding: 1px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+border: 1px solid black;
+font-weight: bold;
+
+}
+
+a:hover {
+background-color: DarkGrey;
+}
+
+blockquote{
+  position: relative;
+  right: 10px;
+}
+
+
+
+
+/* divs Programador */
+.gif{
+  border: 1px solid black;
+  width: 20%;
+  float: right;
+}
+.imgProgramando{
+  border: 1px solid black;
+  width: 25%;
+  float: right;
+}
+
+
+
+
+
+/* Divs Hardware_Software */
+.tabela1{
+  background-color: lightgrey;
+  width:100%;
+  height: 300px;
+  border: 1px dotted black;
+  overflow: auto;
+}
+.tabela2{
+  background-color: lightgrey;
+  width:100%;
+  height: 300px;
+  border: 1px dotted black;
+  overflow: scroll;
+}
+.imgHardSoft{
+  border: 1px solid black;
+  width: 30%;
+  float: right;
+}
+
+
+
+
+/* Divs History_net */
+.imgInternet{
+  border: 1px solid black;
+  width: 40%;
+  float:none;
+}
+.imgRedesSociais{
+  border: 1px solid black;
+  width: 40%;
+  float:none;
+}
+
+
+
+
+/* Divs Toyotismo */
+.imgToyotismo{
+  border: 1px solid black;
+  width: 40%;
+  float:none;
+}
+.imgCriadores{
+  border: 1px solid black;
+  width: 50%;
+  float:none;
+}
+.Tabela3{
+  background-color: lightgrey;
+  width:100%;
+  height: 300px;
+  border: 1px dotted black;
+  overflow: auto;
+}
+
+
+
+
+/* Divs Estado_Moderno */
+.imgFormação{
+  border: 1px solid black;
+  width: 60%;
+  float: right;
+}
+.imgPionerismo{
+  border: 1px solid black;
+  width: 50%;
+  float: none;
+}
+
+
+
+/* Divs Hardware_Software */
+.imgExemplos{
+  border: 1px solid black;
+  width: 60%;
+  float: none;
+}
+.imgExempSoft{
+  border: 1px solid black;
+  width: 50%;
+  float: none;
+}
+
+
+
+/* Divs Lei_Murphy */
+.imgVaiDarMerda{
+  border: 1px solid black;
+  width: 40%;
+  float: inherit;
+}
+.imgleiMurphy{
+  border: 1px solid black;
+  width: 50%;
+  float: none;
+}
+
+
+
+/* Divs Islamismo */
+.imgMesquita{
+  border: 1px solid black;
+  width: 40%;
+  float: none;
+}
+.imgAlcorao{
+  border: 1px solid black;
+  width: 30%;
+  float: inherit;
+}
+
+
+
+
+
+/* Divs Globais */
+  .divBanner {
+    border: 1px solid black;
+    width: 100%;
+}
+  .Titulos {
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.form{
+  border-radius: 5px;
+  background-color: #838B83;
+  padding: 20px;
+}
+.imgMenu{
+  border: 1px solid black;
+  width: 5%;
+  float:left;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#menu{
+  width:18%;
+  margin:10px;
+  padding:0;
+  list-style:none;
+}
+#menu li{
+  float:none;
+  margin: 1px;
+  text-align: left;
+
+}
+#menu li a{
+  text-decoration:underline;
+  font-size:12px;
+  font-weight:bold;
+  color: black;
+  background:#CDC5BF;
+  margin-top:1px;
+  display:grid;
+}
+#menu li a span{
+  display:table-column;
+  vertical-align: middle;
+  width:100%;
+  height:40px;
+  padding:2px;
+  text-align:center;
+  word-break:keep-all;
+  box-shadow:3px 3px 3px #000;
+}
+#menu li a:hover{
+  background: lightBlue;
+  margin-top:0;
+  padding:5px 0;/*padding-top:10px; para o texto não mexer*/
+  box-shadow:3px 3px 3px #000;
+}
